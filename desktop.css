@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #191C20;
+	/*background-color: #FFFFFF;*/
+	color: #FFFFFFCC;
+	height: auto;
+}
+
+.header {
+	background-color: #191C20;
+	box-shadow: 0 .2rem .8rem rgba(0,0,0,.4)!important;
+	position: fixed;
+	z-index: 99999;
+	width: 100%;
+	top: 0;
+}
+
+.default-color {
+color: #FFFFFFCC;
+}
+
+.default-color:hover {
+	color: grey;
+}
+
+.btn {
+	color: #FFFFFFCC;
+	background-color: #25282C;
+	margin: 5px;
+	border: none;
+}
+
+.btn:hover {
+	color: grey;
+}
+
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.sidebar {
+	width: 230px;
+	height: 300vh;
+	margin-top: 50px;
+	position: fixed;
+	z-index: 9999;
+}
+
+ .sidebar-mobile {
+        background-color: #191C20;
+        color: #FFFFFFCC;
+    }
+.sidebar2 {
+	width: 20%;
+	height: 200px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.content {
+	width: 78%;
+	position: relative;
+	margin-top: 70px;
+}
+
+.input-cari {
+	height: 32px;
+	background-color: #FFFFFF0D;
+	border: 1px solid rgba(255,255,255,.2)!important;
+	color: rgba(255,255,255,.8);
+}
+
+.input-cari:focus{
+	background-color: #FFFFFF0D;
+	border: 1px solid rgba(255,255,255,.2)!important;
+	color: rgba(255,255,255,.8);
+}
+
+
+
+.mobile {
+	display: none;
+}
+
+
+ .content-head-mobile {
+        width: 100%;
+        height: 300px;
+        border-bottom: 1px solid grey;
+        position: relative;
+        padding: 10px;
+        box-sizing: border-box;
+   }
+
+
+   .logo-mobile {
+        position: absolute;
+        bottom: 0;
+   }
+
+    .content-mobile-text{
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .contributor {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+/* animasi */
+@keyframes move {
+    from {
+        right: -7%;
+    }
+    to {
+        right: 0%;
+    }
+  }
+
+@keyframes move2 {
+    from {
+        left: -15%;
+    }
+    to {
+        left: 0%;
+    }
+  }
+
+  @keyframes move3 {
+    from {
+        right: 90%;
+    }
+    to {
+        right: 100%;
+    }
+  }
